@@ -37,13 +37,16 @@
         </li>
       <% else %>
         <li>
+          <a href="/bookmarks">My bookmarks</a>
+        </li>
+        <li>
           <a href="/user_sign_out">Sign out</a>
         </li>
       <% end %>
     </ul>
 
     <p style="color: green"><%= notice %></p>
-    
+
     <p style="color: red"><%= alert %></p>
 
     <%= yield %>
